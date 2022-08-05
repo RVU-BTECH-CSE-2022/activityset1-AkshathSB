@@ -1,11 +1,9 @@
 #include<stdio.h>
-
 float input(char s[])
 {
   float x;
-
   printf("enter %s",s);
-  scanf("%f",&x);
+  scanf("%f" ,&x);
   return x;
 }
 
@@ -17,16 +15,15 @@ float find_area(float base, float height)
 
 void output(float base, float height, float area)
 {
-  printf("The area of the triangle with base =%f and height =%f is %f\n", base, height, area);
+  printf("The area of the triangle with base = %f and height = %F is %f\n",base,height,area);
 }
 
 int main(void)
 {
   float base, height, area;
-  base = input("base");
+  base = input ("base");
   height = input("height");
-  area123 = find_area (base, height);
-  output(base, height, area123);
- return 0;
+  area = find_area(base,height);
+  output(base, height, area);
+  return 0;
 }
-

@@ -1,9 +1,43 @@
 #include<stdio.h>
 int main(void)
 {
-  int input();
-  int add(int 1 , int 2);
-  void output(int1, int2 intsum);
+  float length=10;
+  float breadth=20;
+  float area= length *breadth *0.5;
+  printf("the area of the triangle is length =%f,breadth =%f is %f\n", length, breadth, area);
   return 0;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
