@@ -20,16 +20,19 @@ float find_largest ( float a, float b)
   }
   return c;
 }
-void output (float a, float b)
+
+void output (float result)
 {
-  printf("The largest number is a=%f,b=%f is %f\n", a, b, c);
+  printf("The largest number is %f\n", result);
 }
+
 int main(void)
 {
-  float a, b
-  a= input("a");
-  b= input("b");
-  compare = find_largest ("a,b");
+  float a, b, compare;
+  a = input("1");
+  b = input("2");
+  compare = find_largest (a,b);
+  output(compare) ;
   return 0;
 }
 
